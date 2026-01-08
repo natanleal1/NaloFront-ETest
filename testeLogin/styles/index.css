@@ -1,0 +1,37 @@
+
+body {      
+    background: linear-gradient(
+        90deg,
+        #05070f,
+        #1c2541,
+        #152236
+    );    
+}
+
+.home-container {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.signup-section, .login-section {
+    padding: 20px;
+    margin: 30px;
+    background-color: #01327a;
+    border-radius: 20px;
+    transition: 0.4s ease-in-out;
+}
+.signup-section:hover, .login-section:hover {
+    padding: 20px;
+    margin: 30px;
+    background-color: #1d2f49;
+    border-radius: 20px;
+    font-size: 1.2rem;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}

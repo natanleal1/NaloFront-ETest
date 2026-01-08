@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyByte - Cadastro</title>
+    <link rel="stylesheet" href="/testeLogin/styles/style.css">
+    <link rel="shortcut icon" href="/testeLogin/public/favicon-32x32.png" type="image/x-icon">
+</head>
+<body>
+    <form action="" method="post" id="login-form">
+        <h1 id="form-title">Cadastro</h1>
+        <div class="form-group">
+                <label for="email">Insira seu Email: </label>
+                <input type="text" id="email" name="email" placeholder="Exemplo: exemplo@123example.com" required autocomplete="off">
+            
+                <label for="password">Insira sua Senha: </label>
+                <input type="password" name="password" id="password" placeholder="Exemplo: suasenha" required>
+            </div>
+            <button type="submit"class="submit-btn">Enviar</button>
+            <p id="redirect">Já possui uma conta ? <a href="/testeLogin/views/login.html"><br>Clique aqui e realize o Login</a></p>
+        </form>
+
+    </form>
+</body>
+<script src="/testeLogin/script.js"></script>
+</html>
